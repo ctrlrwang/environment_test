@@ -11,10 +11,14 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+ActiveRecord::Schema.define(version: 2022_09_14_034054) do
+=======
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2022_09_13_212206) do
 =======
 ActiveRecord::Schema.define(version: 2022_08_26_212002) do
 >>>>>>> 19d7778e8573f7cf6138cfbbde8cfd64f3b92676
+>>>>>>> da00d88a9c384d3c0a6c405f83b642be4c295419
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,7 +32,13 @@ ActiveRecord::Schema.define(version: 2022_08_26_212002) do
     t.decimal "price"
     t.date "date"
 =======
+<<<<<<< HEAD
+    t.string "author"
+    t.decimal "price"
+    t.date "date"
+=======
 >>>>>>> 19d7778e8573f7cf6138cfbbde8cfd64f3b92676
+>>>>>>> da00d88a9c384d3c0a6c405f83b642be4c295419
   end
 
 end
