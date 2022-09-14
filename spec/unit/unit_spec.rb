@@ -30,4 +30,12 @@ RSpec.describe Book, type: :model do
         subject.date = nil
         expect(subject).not_to be_valid
     end
+<<<<<<< HEAD
 end
+=======
+<<<<<<< HEAD
+end
+=======
+end
+>>>>>>> 19d7778e8573f7cf6138cfbbde8cfd64f3b92676
+>>>>>>> da00d88a9c384d3c0a6c405f83b642be4c295419
